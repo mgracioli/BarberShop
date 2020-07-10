@@ -22,7 +22,7 @@ public class EmailTeste {
      */
     public static void main(String[] args) {
          
-        Email email = new Email("teste assunto envio email", "Teste mensagem do email", "michel-rg@hotmail.com");
+        Email email = new Email("teste assunto envio email", "Teste mensagem do email", "colocar_email_do_remetente");
         
         email.enviar();
     }
